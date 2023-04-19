@@ -131,3 +131,4 @@ export KEYID=25C5B58FADA7859D
 export GPG_TTY="$(tty)"
 export SSH_AUTH_SOCK=$(gpgconf --list-dirs agent-ssh-socket)
 gpgconf --launch gpg-agent
+eval "$(ssh-agent -s)"
