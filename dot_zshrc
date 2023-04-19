@@ -133,8 +133,6 @@ export SSH_AUTH_SOCK=$(gpgconf --list-dirs agent-ssh-socket)
 gpgconf --launch gpg-agent
 eval "$(ssh-agent -s)"
 
-if type fortune /dev/null; then
-  fortune
-fi
+fortune
 
 eval "$(ssh-agent -s)"
