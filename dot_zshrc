@@ -137,3 +137,4 @@ if type fortune /dev/null; then
   fortune
 fi
 
+eval "$(ssh-agent -s)"
