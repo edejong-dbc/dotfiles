@@ -303,3 +303,4 @@ shelved.patch
 .idea/infrastructure.iml
 .idea.aws.xml
 .idea/profile_settings.xml
+.idea
