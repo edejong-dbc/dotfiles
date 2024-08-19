@@ -293,3 +293,13 @@ tags
 # Python
 .venv/
 pyproject.toml
+
+# PyCharm shelves
+shelved.patch
+
+.idea/vcs.xml
+.idea/workspace.xml
+.idea/misc.xml
+.idea/infrastructure.iml
+.idea.aws.xml
+.idea/profile_settings.xml
