@@ -304,3 +304,4 @@ shelved.patch
 .idea.aws.xml
 .idea/profile_settings.xml
 .idea
+.terraform.lock.hcl
