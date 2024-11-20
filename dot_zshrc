@@ -140,3 +140,12 @@ eval "$(ssh-agent -s)"
 fortune
 
 eval "$(ssh-agent -s)"
+
+SCRIPT_DIR="$HOME/.zshrc_scripts"
+
+if [ -d "$SCRIPT_DIR" ]; then
+	for script in "$SCRIPT_DIR"/*; do
+		[ -r "$script" ] && [ -f "$script" ] && source "$script"
+	done
+fi
+
